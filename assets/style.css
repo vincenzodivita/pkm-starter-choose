@@ -11,7 +11,9 @@
 .flex {
     display: flex;
     justify-content: space-around;
+    flex-direction: column-reverse;
     padding: 2em;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -32,16 +34,17 @@
 } 
 
 .pokeball {
-    height: 30%;
-    aspect-ratio: 1;
+    height: 50%;
+    width: 30%;
     background-image: url(../img/pokeball.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 .sprite {
-    height: 30%;
-    aspect-ratio: 1;
+    height: 50%;
+    width: 30%;
     opacity: 0%;
 }
 
