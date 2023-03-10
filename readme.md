@@ -1,0 +1,2 @@
+Semplice progetto creato usando HTML e CSS per applicare delle proprietà di transizione e di animazione appena imparate dal sottoscritto.
+Scopo del progetto: Ricreare minimalmente la scelta del proprio POKèMON starter, ispirandosi ai giochi di terza generazione POKèmon
