@@ -47,6 +47,27 @@ img {
     border: var(--border);
 }
 
+.pk-1 {
+    background-image: url(../img/bulbasaur.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pk-2 {
+    background-image: url(../img/charmander.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pk-3 {
+    background-image: url(../img/squirtle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .pokeball:hover {
     cursor: pointer;
     transform: rotate(-10deg);
