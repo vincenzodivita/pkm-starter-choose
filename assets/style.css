@@ -28,7 +28,32 @@
     left: 50%;
     transform: translate(-50%, -65%);
     border: var(--border);
+
+} 
+
+.pokeball {
+    height: 30%;
+    aspect-ratio: 1;
+    background-image: url(../img/pokeball.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+.sprite {
+    height: 30%;
+    aspect-ratio: 1;
+    opacity: 0%;
+}
+
+.pokeball:hover {
+    cursor: pointer;
+    transform: rotate(-10deg);
+}
+
+.pokeball:active + .sprite {
+    opacity: 100%;
+}
+
 .advice {
     height: 25%;
     width: 50%;
@@ -39,10 +64,3 @@
     border: var(--border);
 }
 
-.pokeball {
-    height: 30%;
-    aspect-ratio: 1;
-    background-image: url(../img/pokeball.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
